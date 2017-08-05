@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>单个表单项的检验</title>
+	<link rel="stylesheet" href="./index.css" type=text/css>
+	<script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="form_group1">
+			<div class="lab_name1">名称</div>
+			<div class="txt_name1">
+				<input type="text" class="txt1" id="input1" maxlength=16 onfocus="precheck(1)" onblur="check(1)">
+			</div>
+			<div class="lab_tips1" id="lab1">必填，长度为4~16个字符</div>
+		</div>
+
+		<div class="form_group1">
+			<div class="lab_name1">密码</div>
+			<div class="txt_name1">
+				<input type="password" class="txt1" id="input2" maxlength=16 onfocus="precheck(2)" onblur="check(2)">
+			</div>
+			<div class="lab_tips1" id="lab2">必填，长度为4~16个字符</div>
+		</div>
+
+
+		<div class="form_group1">
+			<div class="lab_name1">密码确认</div>
+			<div class="txt_name1">
+				<input type="password" class="txt1" id="input3" maxlength=16 onfocus="precheck(3)" onblur="check(3)">
+			</div>
+			<div class="lab_tips1" id="lab3">再次输入相同密码</div>
+		</div>
+
+		<div class="form_group1">
+			<div class="lab_name1">邮箱</div>
+			<div class="txt_name1">
+				<input type="text" class="txt1" id="input4" onfocus="precheck(4)" onblur="check(4)">
+			</div>
+			<div class="lab_tips1" id="lab4"> </div>
+		</div>
+
+		<div class="form_group1">
+			<div class="lab_name1">手机</div>
+			<div class="txt_name1">
+				<input type="text" class="txt1" id="input5" maxlength=11 onfocus="precheck(5)" onblur="check(5)">
+			</div>
+			<div class="lab_tips1" id="lab5"> </div>
+		</div>
+
+		<div class="btn_check1">
+			<button type="button" id="btn1" onclick="submit()">提交</button>
+		</div>
+	</div>
+</body>
+
