@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>单个表单项的检验</title>
+<link rel="stylesheet" href="./index.css" type=text/css>
+<script  type="text/javascript">
+function strlen(str){
+  return str.replace(/[\u0391-\uFFE5]/g,"aa").length;  //先把中文替换成两个字节的英文，在计算长度
+}
+
+function check(){
+	var len=strlen(document.getElementById("txt1").value);
+	var tips=document.getElementById("lab_tips1")
+	if(len<4)
+	{
+		tips.innerHTML="必填，长度为4-16个字符";
+		tips.style.color="#ff0000";
+	}
+	else
+	{
+		tips.innerHTML="名称格式正确";
+		tips.style.color="#008000";
+	}
+
+}
+</script>
+</head>
+<body>
+<div class="container">
+	<div class="form_group1">
+	<form action="">
+		<div class="lab_name1">
+			<label for="txt_name1" id="lab1">名称</label>
+		</div>	
+		<div class="txt_name1">
+			<input type="text" id="txt1" placeholder="name" maxlength=16>
+		</div>
+		<div class="btn_check1">
+			<button type="button" id="btn1" onclick=check() >验证</button>
+		</div>
+		<div id="lab_tips1">必填，长度为4~16个字符</div>
+	</form>
+	</div>
+	
+</div>
+
+</body>
+</html>

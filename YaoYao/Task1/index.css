@@ -1,0 +1,89 @@
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+}
+body{
+	font-size:20px;
+	font-family: font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+
+}
+.container{
+	position: relative;
+	margin:0 auto;
+	/*for debug
+	border:1px solid .f00;
+	*/
+	width:400px;
+	height:150px;
+	margin-top: 10%;
+}
+
+.form_group1{
+	position: relative;
+	/*for debug
+	border:1px solid .0f0;
+	*/
+	width:400px;
+	height:30px;
+
+}
+.lab_name1{
+	position: absolute;
+	width:50px;
+	height:30px;
+	left:30px;
+	top:50px;
+}
+#lab1{
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+.txt_name1{
+	position: absolute;
+	width:200px;
+	height:30px;
+	left:100px;
+	top:50px;
+}
+#txt1{
+	vertical-align: middle;
+	text-indent: 10px;
+	letter-spacing: 1px;
+	width: 200px;
+	height:30px;
+	border-radius: 3px;
+	border:1px solid #bbbbbb;
+
+}
+.btn_check1{
+	position: absolute;
+	width:50px;
+	height:30px;
+	left:320px;
+	top:50px;
+}
+#btn1{
+	vertical-align: middle;
+	width:50px;
+	height:30px;
+	color: #ffffff;
+	background-color:#0088aa;
+	border-radius: 3px;
+	border:1px solid #0000ff;
+}
+
+#lab_tips1{
+	position: absolute;
+	/*for debug
+	border:1px solid .00f;
+	*/
+	width:400px;
+	height:50px;
+	top:90px;
+	left:100px;
+
+	vertical-align: top;
+	font-size: 14px;
+	color: #888888;
+}
