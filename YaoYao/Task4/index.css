@@ -77,7 +77,6 @@ td.chessboard {
 	position: absolute;
 	width:500px;
 	height:40px;
-	border:1px solid red;
 	right:0px;
 	bottom: 0px;
 }
@@ -88,4 +87,10 @@ td.chessboard {
 	width:100px;
 	height:30px;
 	margin:2px 5px;
+}
+button{
+	color:#ffffff;
+	background-color: #0088aa;
+	border-radius: 3px;
+	border:1px solid blue;
 }
