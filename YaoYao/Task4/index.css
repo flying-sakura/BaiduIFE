@@ -1,0 +1,91 @@
+*{
+	margin：0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+table{
+	
+}
+.container{
+	position: relative;
+	width: 550px; height: 590px;
+	margin: auto;
+
+}
+.hor_nums_div{
+	position: absolute;
+	width:500px;
+	height:48px;
+	left:50px;
+}
+.ver_nums_div{
+	position: absolute;
+	width:48px;
+	height:500px;
+	top:50px;
+
+}
+.cell{
+	width: 48px; height: 48px;
+    text-align: center;
+}
+
+table.hor_nums{
+	position: absolute;
+	width:500px; height:50px;
+	border:0px;
+}
+table.ver_nums{
+	position: absolute;
+	width:50px; height:500px;
+	border:0px;
+}
+.grid{
+	position: absolute;
+	width:500px; height:500px;
+	right:0px;
+	top: 50px;
+}
+table.chessboard {
+	width:500px;
+	height:500px;
+    background: #fff;
+    border: 3px solid #000;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+td.chessboard {
+    width:50px; height: 50px;
+    border: 1px solid #ccc; 
+    word-break:break-all;
+    overflow: hidden;
+}
+#smartcell{
+	position: absolute;
+	top:3px;
+	left:3px;
+	width:47px;height:47px;
+	background-color: blue;
+}
+#s1{
+	position: relative;
+	float:top;
+	width:47px;height:15px;
+	background-color: red;
+}
+.control{
+	position: absolute;
+	width:500px;
+	height:40px;
+	border:1px solid red;
+	right:0px;
+	bottom: 0px;
+}
+.btn1{
+	position: relative;
+	top:2px;
+	display: inline;
+	width:100px;
+	height:30px;
+	margin:2px 5px;
+}
