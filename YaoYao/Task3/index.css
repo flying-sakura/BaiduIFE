@@ -1,0 +1,66 @@
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+}
+body,label,input,select{
+	font-size: 1.1em;
+	font-family: font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+input,select{
+	border:1px solid gray;
+	border-radius:5px;
+	text-indent: 2%;
+}
+.container{
+	position: relative;
+	margin:0 auto;
+	width:600px;
+	height:80px;
+	margin-top: 10%;
+}
+.row1_col2{
+	position: absolute;
+	width: 600px;
+	height: 40px;
+}
+.row1_col2 div{
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+}
+.d1{
+	top:0px;
+	left:0px;
+}
+.d2{
+	top:0px;
+	left:300px;
+}
+#province{
+	width:200px;
+	height:30px;
+	
+}
+#school{
+	width:300px;
+	height:30px;
+}
+.input1{
+	position: absolute;
+	width: 600px;
+	height: 40px;
+	top:40px;
+	left:0px;
+	text-align: center;
+}
+#in,#notIn{
+	visibility:hidden;
+}
+#notIn input{
+	width:500px;
+	height:30px; 
+	font-size:1em;
+
+}
+

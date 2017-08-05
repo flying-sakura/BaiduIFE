@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>表单联动</title>
+	<link rel="stylesheet" href="./index.css" type=text/css>
+	<script type="text/javascript" src="./index.js"></script>
+</head>
+
+<html>
+<body>
+<div class="container">	
+	<form action="" > 
+	<div class="row1_col2">
+		<div class="d1">
+		<label><input name="inSchool" type="radio" value="in" onclick="display(this.value)" />在校生</label> 
+		</div>
+		<div class="d2">
+		<label><input name="inSchool" type="radio" value="notIn" onclick="display(this.value)" />非在校生</label> 
+		</div>
+	</div>
+
+	<div class="input1" id="in">
+		<b>学校</b> 
+		<select name="province" id="province" onchange="addSchool(this.value)">
+		</select>  
+		<select name="school" id="school">
+		</select>
+	</div>
+
+	<div class="input1" id="notIn">
+	<label><b>就业单位 </b><input type="text" maxlength="32" /></label>
+	</div>
+	</form>
+</div>
+</body>
+</html>
