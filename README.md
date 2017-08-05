@@ -1,15 +1,14 @@
 # BaiduIFE
-
 some projects in BaiduIFE(http://ife.baidu.com/)
 BaiduIFE includes the following college:YaoYao,XiaoWei,BinBin and so on.
-Here are their tasks and links.
+Here are their tasks and relative links.
 
 +YaoYao
- |-Task1 check a singal form µ¥¸ö±íµ¥µÄĞ£Ñé
+ |-Task1 check a singal form å•ä¸ªè¡¨å•çš„æ ¡éªŒ
   |-http://ife.baidu.com/course/detail/id/97
- |-Task2 check multiple forms dynamically ¶à¸ö±íµ¥µÄ¶¯Ì¬Ğ£Ñé
+ |-Task2 check multiple forms dynamically å¤šä¸ªè¡¨å•çš„åŠ¨æ€æ ¡éªŒ
   |-http://ife.baidu.com/course/detail/id/101
- |-Task3 form'linkage ±íµ¥Áª¶¯
+ |-Task3 form'linkage è¡¨å•è”åŠ¨
   |-http://ife.baidu.com/course/detail/id/106
- |-Task4 a square that follows our instruction ÌıÖ¸ÁîµÄĞ¡·½¿é
+ |-Task4 a square that follows our instruction å¬æŒ‡ä»¤çš„å°æ–¹å—
   |-http://ife.baidu.com/course/detail/id/109
