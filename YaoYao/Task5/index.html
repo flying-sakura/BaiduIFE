@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>听指令的小方块2</title>
+	<link rel="stylesheet" href="./index.css" type=text/css>
+	<script type="text/javascript" src="./index.js"></script>
+</head>
+
+<html>
+<body>
+<div class="container">
+	<div class="hor_nums_div">
+	<table class="hor_nums">
+	<tr class="hor_nums">
+		<td class="cell">1</td>
+		<td class="cell">2</td>
+		<td class="cell">3</td>
+		<td class="cell">4</td>
+		<td class="cell">5</td>
+		<td class="cell">6</td>
+		<td class="cell">7</td>
+		<td class="cell">8</td>
+		<td class="cell">9</td>
+		<td class="cell">10</td>
+	</tr>
+	</table>
+	</div>
+
+	<div class="ver_nums_div">
+	<table class="ver_nums">
+	<tr class="ver_nums">
+		<td class="cell">1</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">2</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">3</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">4</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">5</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">6</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">7</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">8</td>
+	</tr>
+	<tr class="ver_nums">
+		<td class="cell">9</td>
+	</tr>
+	<tr class="hor_nums">
+		<td class="cell">10</td>
+	</tr>
+	</table>
+	</div>
+
+	<div class="grid">
+	<table class="chessboard" id="chessboard">
+	<tr class="chessboard">
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	     <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	     <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	     <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	     <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	     <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	     <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	<tr class="chessboard">
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	    <td class="chessboard"></td>
+	</tr>
+	</table>
+
+	<div id="smartcell" class="delay">
+		<div id="s1" class="delay"></div>
+	</div>
+	</div>
+
+	<div class="control">
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_traceLeft" onclick="traL()">TRA LEF</button>
+		</div>
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_traceRight" onclick="traR()">TRA RIG</button>
+		</div>
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_traceTop" onclick="traT()">TRA TOP</button>
+		</div>
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_traceBottom" onclick="traB()">TRA BOT</button>
+		</div>
+
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_movLeft" onclick="movL()">MOV LEF</button>
+		</div>
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_movRight" onclick="movR()">MOV RIG</button>
+		</div>
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_movTop" onclick="movT()">MOV TOP</button>
+		</div>
+		<div class="btn1">
+			<button type="button" class="btn1" id="btn_movBottom" onclick="movB()">MOV BOT</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>
