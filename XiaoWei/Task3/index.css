@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container{
+	position: relative;
+	margin: 20px;
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	display: table;/*使div根据父元素根据子元素高度自适应高度，
+	用来辅助下面一条语句使用*/
+}
+/*下面的语句据说是用来使div根据父元素根据子元素高度自适应高度
+不过实测并没有什么用*/
+.container::after{
+	clear: both;
+}
+.introduction,.team,.persons{
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #999;
+}
+.team{
+	float: left;
+	width: 200px;
+	font-style: bold;
+}
+.persons{
+	float: right;
+	width: 120px;
+}
+.introduction{
+	margin: 0px 140px 0px 220px;
+	text-indent: 2em;
+}
+.logo{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border: 1px dotted #999;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.team .logo{
+	float: left;
+	margin-right: 10px;
+}
+.persons .logo{
+	margin-bottom: 20px;
+}
+.persons .logo:last-of-type{
+	margin-bottom: 0px;
+}
+li{
+	margin-left: 20px;
+	font-weight: bold;
+}
+p{
+	margin: 0.5em;
+}
+ul p{
+	padding-left: 2em;
+}
