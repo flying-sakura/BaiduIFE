@@ -1,0 +1,26 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 18px;
+}
+#container{
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	z-index: -1;
+}
+
+#btnFloat{
+	position: absolute;
+	left:20%;
+	top:20%;
+	z-index: 1;
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+}
+
+
